@@ -1,0 +1,16 @@
+body{
+  background-color: #eed5ae; 
+}
+
+.butterflyEditing li{
+  list-style-position: inside;
+  margin-bottom: 20px;
+}
+
+.butterflyEditing li:nth-child(odd) {
+  background-color: #f6a15f;
+}
+
+.butterflyEditing li:nth-child(even) {
+  background-color: #c94f4f;
+}
