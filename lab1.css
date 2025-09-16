@@ -1,16 +1,39 @@
 body{
-  background-color: #eed5ae; 
+  background-color: #fcfcfc; 
 }
+
+h1{
+  color: #0b5fa5;
+  text-align: center;
+}
+
+#searchForm{
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+#selectedName{
+  display: block;
+  margin-top: 10px;
+  margin-left: 870px;
+}
+
+.butterflyEditing table{
+  border: 1px solid #000;
+  width: 100%;
+}
+
+.butterflyEditing td{
+  border: 1px solid #000;
+}
+
 
 .butterflyEditing li{
   list-style-position: inside;
   margin-bottom: 20px;
 }
 
-.butterflyEditing li:nth-child(odd) {
-  background-color: #f6a15f;
-}
-
-.butterflyEditing li:nth-child(even) {
-  background-color: #c94f4f;
+footer{
+  text-align: center;
 }

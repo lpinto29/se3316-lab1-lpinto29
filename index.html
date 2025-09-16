@@ -11,25 +11,47 @@
 
 <body>
 
-  <h1 align = "center">Butterfly Types </h1>
+  <h1>Butterfly Types</h1>
+
+  <form id = "searchForm" onsubmit="search()">
+    <input id = "input" type="text">
+    <input type="submit">
+  </form>
+
+
+  <select id = "selectedName" onchange="showDetails()">
+    <option value="">Select</option>
+    <option>Danaus plexippus</option>
+    <option>Heliconius charitonius</option>
+    <option>Heliconius erato</option>
+    <option>Junonia coenia</option>
+    <option>Lycaena phlaeas</option>
+    <option>Nymphalis antiopa</option>
+    <option>Papilio cresphontes</option>
+    <option>Pieris rapae</option>
+    <option>Vanessa atalanta</option>
+    <option>Vanessa cardui</option>
+  </select>
+
+
 
 <ol type = "I" class="butterflyEditing">
   
   <!-- First item in the list. This should be the monarch butterfly-->
 
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Danaus plexippus </td>
+        <td> Danaus plexippus </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Monarch </td>
+        <td> Monarch </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 3 1/2-4" (89-102 mm). Very large, with FW long and drawn out. Above, bright, burnt-orange with black veins and black margins sprinkled with white dots; FW tip broadly black interrupted by larger white and orange spots. Below, paler, duskier orange. 1 black spot appears between HW cell and margin on male above and below. Female darker with black veins smudged.
+        <td> 3 1/2-4" (89-102 mm). Very large, with FW long and drawn out. Above, bright, burnt-orange with black veins and black margins sprinkled with white dots; FW tip broadly black interrupted by larger white and orange spots. Below, paler, duskier orange. 1 black spot appears between HW cell and margin on male above and below. Female darker with black veins smudged.
         </td>
       </tr>
       <tr>
@@ -51,18 +73,18 @@
 
   <!-- this is the second item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Heliconius charitonius </td>
+        <td>Heliconius charitonius</td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Zebra Longwing </td>
+        <td> Zebra Longwing </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 3-3 3/8" (76-78 mm). Wings long and narrow. Jet-black above, banded with lemon-yellow (sometimes pale yellow). Beneath similar; bases of wings have crimson spots.</td>
+        <td> 3-3 3/8" (76-78 mm). Wings long and narrow. Jet-black above, banded with lemon-yellow (sometimes pale yellow). Beneath similar; bases of wings have crimson spots.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -83,18 +105,18 @@
 
   <!-- this is the third item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Heliconius erato </td>
+        <td> Heliconius erato </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Crimson-patched Longwing </td>
+        <td> Crimson-patched Longwing </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 3-3 3/8" (76-86 mm). Wings long, narrow, and rounded. Black above, crossed on FW by broad crimson patch, and on HW by narrow yellow line. Below, similar but red is pinkish and HW has less yellow.</td>
+        <td> 3-3 3/8" (76-86 mm). Wings long, narrow, and rounded. Black above, crossed on FW by broad crimson patch, and on HW by narrow yellow line. Below, similar but red is pinkish and HW has less yellow.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -115,18 +137,18 @@
 
    <!-- this is the fourth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Junonia coenia </td>
+        <td> Junonia coenia </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Common Buckeye </td>
+        <td> Common Buckeye </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 2-2 1/2" (51-63 mm). Wings scalloped and rounded except at drawn-out FW tip. Highly variable. Above, tawny-brown to dark brown; 2 orange bars in FW cell, orange submarginal band on HW, white band diagonally crossing FW. 2 bright eyespots on each wing above: on FW, 1 very small near tip and 1 large eyespot in white FW bar; on HW, 1 large eyespot near upper margin and 1 small eyespot below it. Eyespots black, yellow-rimmed, with iridescent blue and lilac irises. Beneath, FW resembles above in lighter shades; HW eyespots tiny or absent, rose-brown to tan, with vague crescent-shaped markings.</td>
+        <td> 2-2 1/2" (51-63 mm). Wings scalloped and rounded except at drawn-out FW tip. Highly variable. Above, tawny-brown to dark brown; 2 orange bars in FW cell, orange submarginal band on HW, white band diagonally crossing FW. 2 bright eyespots on each wing above: on FW, 1 very small near tip and 1 large eyespot in white FW bar; on HW, 1 large eyespot near upper margin and 1 small eyespot below it. Eyespots black, yellow-rimmed, with iridescent blue and lilac irises. Beneath, FW resembles above in lighter shades; HW eyespots tiny or absent, rose-brown to tan, with vague crescent-shaped markings.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -147,18 +169,18 @@
 
 <!-- this is the fifth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Lycaena phlaeas </td>
+        <td> Lycaena phlaeas </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> American Copper </td>
+        <td> American Copper </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 7/8-1 1/8" (22-28 mm). Above, FW bright copper or brass-colored with dark spots and margin; HW dark brown with copper margin. Undersides mostly grayish with black dots; FW has some orange, HW has prominent submarginal orange band.</td>
+        <td> 7/8-1 1/8" (22-28 mm). Above, FW bright copper or brass-colored with dark spots and margin; HW dark brown with copper margin. Undersides mostly grayish with black dots; FW has some orange, HW has prominent submarginal orange band.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -179,18 +201,18 @@
 
 <!-- this is the sixth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Nymphalis antiopa </td>
+        <td> Nymphalis antiopa </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Mourning Cloak </td>
+        <td> Mourning Cloak </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 2 7/8-3 3/8" (73-86 mm). Large. Wing margins ragged. Dark with pale margins. Above, rich brownish-maroon, iridescent at close range, with ragged, cream-yellow band, bordered inwardly by brilliant blue spots all along both wings. Below, striated, ash-black with row of blue-green to blue-gray chevrons just inside dirty yellow border.</td>
+        <td> 2 7/8-3 3/8" (73-86 mm). Large. Wing margins ragged. Dark with pale margins. Above, rich brownish-maroon, iridescent at close range, with ragged, cream-yellow band, bordered inwardly by brilliant blue spots all along both wings. Below, striated, ash-black with row of blue-green to blue-gray chevrons just inside dirty yellow border.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -203,7 +225,7 @@
       </tr>
       <tr>
         <td>Wikipedia</td>
-        <td> <a href="https://en.wikipedia.org/wiki/Lycaena_phlaeas">Click here to go to the wikipedia page</a></td>
+        <td> <a href="https://en.wikipedia.org/wiki/Nymphalis_antiopa">Click here to go to the wikipedia page</a></td>
       </tr>
     </table>
   </li>
@@ -211,18 +233,18 @@
 
   <!-- this is the seventh item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Papilio cresphontes </td>
+        <td> Papilio cresphontes </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Giant Swallowtail </td>
+        <td> Giant Swallowtail </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 3 3/8-5 1/2" (86-140 mm). Very large. Long, dark, spoon-shaped tails have yellow center. Dark brownish-black above with 2 broad bands of yellow spots converging at tip of FW. Orange spot at corner of HW flanked by blue spot above; both recur below, but blue continuing in chevrons across underwing, which also has orange patch. Otherwise, yellow below with black veins and borders. Abdomen yellow with broad black midline tapering at tip; notch on top of abdomen near rear. Thorax has yellow lengthwise spots or stripes.</td>
+        <td> 3 3/8-5 1/2" (86-140 mm). Very large. Long, dark, spoon-shaped tails have yellow center. Dark brownish-black above with 2 broad bands of yellow spots converging at tip of FW. Orange spot at corner of HW flanked by blue spot above; both recur below, but blue continuing in chevrons across underwing, which also has orange patch. Otherwise, yellow below with black veins and borders. Abdomen yellow with broad black midline tapering at tip; notch on top of abdomen near rear. Thorax has yellow lengthwise spots or stripes.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -243,18 +265,18 @@
   
     <!-- this is the eighth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Pieris rapae </td>
+        <td> Pieris rapae </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Cabbage White </td>
+        <td> Cabbage White </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 1 1/4-1 7/8" (32-48 mm). Milk-white above with charcoal FW tips, black submarginal sex spots on FW (1 on male, 2 on female) and on HW costa. Below, FW tip and HW pale to bright mustard-yellow, speckled with grayish spots and black FW spots.</td>
+        <td> 1 1/4-1 7/8" (32-48 mm). Milk-white above with charcoal FW tips, black submarginal sex spots on FW (1 on male, 2 on female) and on HW costa. Below, FW tip and HW pale to bright mustard-yellow, speckled with grayish spots and black FW spots.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -275,18 +297,18 @@
 
     <!-- this is the ninth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Vanessa atalanta </td>
+        <td> Vanessa atalanta </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Red Admiral </td>
+        <td> Red Admiral </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 1 3/4-2 1/4" (44-57 mm). FW tip extended, clipped. Above, black with orange-red to vermilion bars across FW and on HW border. Below, mottled black, brown, and blue with pink bar on FW. White spots at FW tip above and below, bright blue patch on lower HW angle above and below.</td>
+        <td> 1 3/4-2 1/4" (44-57 mm). FW tip extended, clipped. Above, black with orange-red to vermilion bars across FW and on HW border. Below, mottled black, brown, and blue with pink bar on FW. White spots at FW tip above and below, bright blue patch on lower HW angle above and below.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -306,18 +328,18 @@
 
       <!-- this is the tenth item in the list-->
   <li>
-    <table border = "1">
+    <table>
       <tr>
         <td>Scientific Name</td>
-        <td align="left"> Vanessa cardui </td>
+        <td> Vanessa cardui </td>
       </tr>
       <tr>
         <td>Common Name</td>
-        <td align="left"> Painted Lady </td>
+        <td> Painted Lady </td>
       </tr>
       <tr>
         <td>Description</td>
-        <td align="left"> 2-2 1/4" (51-57 mm). FW tip extended slightly, rounded. Above, salmon-orange with black blotches, black-patterned margins, and broadly black FW tips with clear white spots; outer HW crossed by small black-rimmed blue spots. Below, FW dominantly rose-pink with olive, black, and white pattern; HW has small blue spots on olive background with white webwork. FW above and below has white bar running from costa across black patch near tip.</td>
+        <td> 2-2 1/4" (51-57 mm). FW tip extended slightly, rounded. Above, salmon-orange with black blotches, black-patterned margins, and broadly black FW tips with clear white spots; outer HW crossed by small black-rimmed blue spots. Below, FW dominantly rose-pink with olive, black, and white pattern; HW has small blue spots on olive background with white webwork. FW above and below has white bar running from costa across black patch near tip.</td>
       </tr>
       <tr>
         <td>Images</td>
@@ -337,6 +359,12 @@
   
   
 </ol>
+
+<footer>
+  <p>Source: 
+  <a href = https://www.josiahwang.com/dataset/leedsbutterfly> Leeds Butterfly Dataset</a>
+  </p>
+</footer>
 
 
 </body>
